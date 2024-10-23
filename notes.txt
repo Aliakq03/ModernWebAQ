@@ -1,5 +1,0 @@
-npm i express nodemon cors lodash multer
-
-npm create vite@latest .
-
-SPA = single project application
