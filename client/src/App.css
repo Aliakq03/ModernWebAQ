@@ -1,0 +1,97 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.app {
+  background-image: url(../public/Bob-Ross-Paintings.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items at the top for a website layout */
+}
+
+.app .container {
+  background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+  border-radius: 10px;
+  padding: 20qpx;
+  width: 100%;
+  max-width: 1000px; /* Controls the width on larger screens */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Shadow for depth */
+  margin-top: 20px; /* Space from the top of the viewport */
+}
+
+.card {
+  margin-bottom: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #0db507;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.list-group-item {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Section Headers */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #0db507;
+}
+
+/* Overview Section */
+.overview {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent for readability */
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.overview p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    max-width: 95%;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
