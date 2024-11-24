@@ -6,7 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+<<<<<<< HEAD
 node_modules/
+=======
+
+node_modules
+>>>>>>> 890e145 (Commit of assignment)
 dist
 dist-ssr
 *.local

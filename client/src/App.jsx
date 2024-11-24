@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
@@ -24,6 +25,25 @@ function App() {
         </Container>
       </div>
     </Router>
+=======
+import { Routes, Route } from 'react-router-dom';
+import RecipeList from './pages/ListRecipe';
+import RecipeDetail from './pages/DetailedRecipe';
+import RecipeEdit from './pages/EditRecipe';
+import AddRecipe from './pages/AddRecipe';
+import './App.css'; 
+
+function App() {
+  return (
+    <div>
+      <Routes>
+        <Route path="/recipes" element={<RecipeList />} />
+        <Route path="/recipes" element={<AddRecipe />} />
+        <Route path="/recipes/:id" element={<RecipeDetail />} />
+        <Route path="/recipes/:id" element={<RecipeEdit />} />
+      </Routes>
+    </div>
+>>>>>>> 890e145 (Commit of assignment)
   );
 }
 
