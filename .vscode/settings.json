@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastColorTheme": "Monokai",
+    "workbench.preferredHighContrastLightColorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.color": "#90a4ae",
+    "material-icon-theme.folders.color": "#9370DB",
+    "material-icon-theme.folders.theme": "specific"
+}

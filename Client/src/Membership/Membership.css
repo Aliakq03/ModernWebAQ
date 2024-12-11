@@ -1,0 +1,136 @@
+.membership-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.logo-container {
+    position: absolute;
+    margin-top: 110px;
+    /* Adjust the position to make it more visible */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0px;
+    /* Add padding to give extra space at the top */
+}
+
+.logo {
+    width: 400px;
+    /* Increase the width to make it larger */
+    height: auto;
+}
+
+.membership-container {
+    text-align: center;
+    padding: 60px 40px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: none;
+    /* Remove box shadow */
+    margin-top: 80px;
+    /* Space the container down from the top */
+    /* Remove background color */
+}
+
+.membership-title {
+    font-size: 2.5em;
+    color: #fff;
+    /* Set title color to white for contrast */
+    margin-bottom: 20px;
+}
+
+.tiers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tier {
+    background: linear-gradient(145deg,
+            rgba(255, 255, 255, 0.9),
+            rgba(245, 245, 245, 0.8),
+            rgba(220, 220, 220, 0.9));
+    border-radius: 15px;
+    padding: 30px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+        inset 0 2px 4px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tier:hover {
+    transform: translateY(-10px);
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.3),
+        inset 0 3px 6px rgba(255, 255, 255, 0.6);
+    /* Enhanced hover shine */
+}
+
+.tier h2 {
+    color: #3c009d;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.tier p {
+    color: #333;
+    /* Darker text color for readability */
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.5em;
+    color: #3c009d;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.choose-btn {
+    background-color: #3c009d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choose-btn:hover {
+    background-color: #290073;
+}
+
+.desc {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.basic {
+    background: linear-gradient(145deg, #b09057, #ecd8b5);
+    /* Bronze-like gradient */
+    color: #3c009d;
+}
+
+.standard {
+    background: linear-gradient(145deg, #c0c0c0, #f0f0f0);
+    /* Silver-like gradient */
+    color: #333;
+}
+
+.premium {
+    background: linear-gradient(145deg, #d4af37, #fbe7a2);
+    /* Gold-like gradient */
+    color: #290073;
+}
+.selected {
+    color: #3c009d;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
